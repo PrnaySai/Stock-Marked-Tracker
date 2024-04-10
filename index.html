@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stock Market App</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Stock Market App</h1>
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="Enter Stock Symbol (e.g., AAPL)">
+      <button onclick="searchStock()">Search</button>
+    </div>
+  </header>
+  <main>
+    <div id="stock-info">
+      <div id="company-name"></div>
+      <div id="stock-price"></div>
+      <div id="stock-chart"></div>
+      <div id="news-container"></div>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
